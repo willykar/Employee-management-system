@@ -10,7 +10,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
     
         <!-- Scripts -->
-        <script src="{{asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+       <script src="{{asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
