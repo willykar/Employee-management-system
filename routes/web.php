@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Backend\CityController;
 use App\Http\Controllers\Backend\UserController;
 use App\Http\Controllers\Backend\StateController;
@@ -22,9 +21,11 @@ use App\Http\Controllers\Backend\ChangePasswordController;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
-Route::get('/', [LoginController::class, 'index']);
 
 Auth::routes();
 
