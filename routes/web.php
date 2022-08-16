@@ -22,7 +22,7 @@ use App\Http\Controllers\Backend\ChangePasswordController;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('login');
 });
 
 Auth::routes();
